@@ -1,0 +1,28 @@
+{
+  "profile": "XXX",
+  "iiif_bucket_name": "YYY",
+  "event_s3": {
+    "Records": [
+      {
+        "s3": {
+          "bucket": {
+            "name": "ZZZ"
+          },
+          "object": {
+            "key": "AAA/BBB"
+          }
+        }
+      }
+    ]
+  },
+  "event_bridge": {
+    "detail": {
+      "bucket": {
+        "name": "ZZZ"
+      },
+      "object": {
+        "key": "AAA/BBB"
+      }
+    }
+  }
+}
